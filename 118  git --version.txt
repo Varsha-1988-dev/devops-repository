@@ -1,0 +1,64 @@
+ 118  git --version
+  119  mkdir git1_demo
+  120  cd git1_demo
+  121  ls
+  122  git config --global user.name "varsha sahni"
+  123  git config --global user.email "varsha@gmail.com"
+  124  git config --global user.name
+  125  git config --global user.email
+  126  whoami
+  127  pwd
+  128  ls
+  129  ls -l
+  130  ls -L
+  131  ls -F
+  132  LS -L
+  133  git help
+  134  cd git1_demo
+  135  git init
+  136  ls
+  137  ls -a
+  138  git status
+  139  touch demo.txt
+  140  ls
+  141  git add demo.txt
+  142  git status
+  143  git commit -m "my fisrst commit"
+  144  git status
+  145  history
+  146  git clone https://github.com/Varsha-1988-dev/first_demo.git
+  147  ls
+  148  cd first_demo/
+  149  ls -la
+  150  git status
+  151  git log
+  152  git log -p -1
+  153  vim test.txt
+  154  git status
+  155  git add test.txt
+  156  git status
+  157  git commit -m "my first commit"
+  158  git status
+  159  git push origin master
+  160  cat test.txt
+  161  git commit -m "my first commit"
+  162  git remote -v
+  163  git push origin master
+  164  git status
+  165  vim newfile
+  166  git status
+  167  git add .
+  168  git status
+  169  git commit -m "2nd commit"
+  170  git status
+  171  git push origin master
+  172  git fetch
+  173  git push origin master
+  174  git branch
+  175  git status
+  176  git fetch --all
+  177  git pull
+  178  git status
+  179  git push origin master
+  180  git push origin main
+  181  history
